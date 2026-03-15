@@ -177,19 +177,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6bd486065ce11414fa40e631affc4900, type: 3}
   m_Name: ProbeVolumesOptions
   m_EditorClassIdentifier: Unity.RenderPipelines.Core.Runtime::UnityEngine.Rendering.ProbeVolumesOptions
-  active: 1
+  active: 0
   normalBias:
     m_OverrideState: 0
-    m_Value: 0.05
+    m_Value: 0
   viewBias:
     m_OverrideState: 0
     m_Value: 0.1
   scaleBiasWithMinProbeDistance:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   samplingNoise:
-    m_OverrideState: 0
-    m_Value: 0.1
+    m_OverrideState: 1
+    m_Value: 0.63
   animateSamplingNoise:
     m_OverrideState: 0
     m_Value: 1
