@@ -53,7 +53,8 @@ public class ClearCounter : MonoBehaviour
 
     public void ClearKitchenObject()
     {
-        kitchenObject = null;
+        this.kitchenObject = null;
+        this.kitchenObjectCo = null;
     }
 
     public bool HasKitchenObject()
