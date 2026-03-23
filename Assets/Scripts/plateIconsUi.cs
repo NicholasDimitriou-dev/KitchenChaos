@@ -23,19 +23,20 @@ public class plateIconsUi : MonoBehaviour
 
     private void UpdateVisual()
     {
-        // foreach (Transform child in transform)
-        // {
-        //     if (child == iconTemplate)
-        //     {
-        //         continue;
-        //     }
-        //     Destroy(child.gameObject);
-        // }
+        foreach (Transform child in transform)
+        {
+            if (child == iconTemplate)
+            {
+                continue;
+            }
+            Destroy(child.gameObject);
+        }
         foreach (KitchenObjectCO kitchenObjectCo in plateKitchenObject.GetKitchenObjectCOList())
         {
             Transform iconTransform = Instantiate(iconTemplate, transform);
-            iconTransform.GetComponent<PlateIconSingleUI>().SetKitchenObject(kitchenObjectCo);
             iconTemplate.gameObject.SetActive(true);
+            iconTransform.GetComponent<PlateIconSingleUI>().SetKitchenObject(kitchenObjectCo);
+            
 
         }
     }

@@ -13,9 +13,6 @@ MonoBehaviour:
   m_Name: salad
   m_EditorClassIdentifier: Assembly-CSharp::RecipeCO
   kitchenObjectCoList:
-  - {fileID: 11400000, guid: 04b9aca676909cf4eaa5e144cb9c57c7, type: 2}
-  - {fileID: 11400000, guid: 035cddf571e17c5458bf599685d7b58b, type: 2}
-  - {fileID: 11400000, guid: 18179f050180f2d49981a8715df6a0f4, type: 2}
-  - {fileID: 11400000, guid: e6b3b97f5c6b9524c8320e24ca5364d4, type: 2}
   - {fileID: 11400000, guid: 56a9eeb067b88684eb22741cdddbb3d0, type: 2}
-  recipeName: cheeseBurger
+  - {fileID: 11400000, guid: e6b3b97f5c6b9524c8320e24ca5364d4, type: 2}
+  recipeName: salad
