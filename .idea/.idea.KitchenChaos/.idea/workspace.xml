@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7738571-7bf4-420b-95be-a6683edb0179" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.KitchenChaos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KitchenChaos/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/recepeDeliver/salad.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/recepeDeliver/salad.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Delivery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Delivery.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DeliveryManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DeliveryManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/plateIconsUi.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/plateIconsUi.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/GameScene Baking Set-Default.CellData.bytes" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene/GameScene Baking Set-Default.CellData.bytes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/GameScene Baking Set-Default.CellOptionalData.bytes" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene/GameScene Baking Set-Default.CellOptionalData.bytes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/GameScene Baking Set-Default.CellProbeOcclusionData.bytes" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene/GameScene Baking Set-Default.CellProbeOcclusionData.bytes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/GameScene Baking Set.CellBricksData.bytes" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene/GameScene Baking Set.CellBricksData.bytes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/GameScene Baking Set.CellSharedData.bytes" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene/GameScene Baking Set.CellSharedData.bytes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/GameScene Baking Set.CellSupportData.bytes" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene/GameScene Baking Set.CellSupportData.bytes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/GameScene Baking Set.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene/GameScene Baking Set.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene/LightingData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/Lightmap-0_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene/Lightmap-0_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/Lightmap-0_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene/Lightmap-0_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/Lightmap-1_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene/Lightmap-1_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/Lightmap-1_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene/Lightmap-1_comp_light.exr" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +106,7 @@
       <workItem from="1773596201833" duration="15793000" />
       <workItem from="1773784473605" duration="1295000" />
       <workItem from="1773972644094" duration="611000" />
-      <workItem from="1774212782446" duration="39128000" />
+      <workItem from="1774212782446" duration="39727000" />
     </task>
     <servers />
   </component>
