@@ -2,51 +2,49 @@ using System;
 using UnityEngine;
 using UnityEngine.Splines;
 
-public class ClearCounter : MonoBehaviour, IKitcehnObjectParent
+public class ClearCounter : BaseCounter
 {
     [SerializeField] private KitchenObjectCO kitchenObjectCo;
-    [SerializeField] private Transform location;
-    private KitchenObject kitchenObject;
     
 
-    public void Interact(Player player)
+    public override void Interact(Player player)
     {
-        if (kitchenObject == null)
+        if (!HasKitchenObject())
         {
-            Transform KOTransform = Instantiate(kitchenObjectCo.prefab, location);
-            KOTransform.GetComponent<KitchenObject>().SetkitchenObjectParent(this);
+            if (player.HasKitchenObject())
+            {
+                player.GetKitchenObject().SetkitchenObjectParent(this);
+            }
         }
-        else { 
-            kitchenObject.SetkitchenObjectParent(player);
-            // Debug.Log(kitchenObject.GetkitchenObjectParent());
+        else
+        {
+            if (!player.HasKitchenObject())
+            {
+                this.GetKitchenObject().SetkitchenObjectParent(player);
+            }
+            else
+            {
+                if (player.GetKitchenObject().TryGetPlate(out plateKitchenObject plate))
+                {
+                    if (plate.tryAddIngredient(GetKitchenObject().GetKitcheenObjectCO()))
+                    {
+                        GetKitchenObject().DestroySelf();
+                    }
+                }
+                else
+                {
+                    if (this.GetKitchenObject().TryGetPlate(out plate))
+                    {
+                        if (plate.tryAddIngredient(GetKitchenObject().GetKitcheenObjectCO()))
+                        {
+                            Debug.Log("idk");
+                            player.GetKitchenObject().DestroySelf();
+                        }
+                    }
+                }
+            }
         }
         
     }
-
-    public Transform GetKitchObjectFollowTransfrom()
-    {
-        return location;
-    }
-
-    public void SetKitchenObject(KitchenObject ko)
-    {
-        this.kitchenObject = ko;
-        this.kitchenObjectCo = ko.GetKitcheenObjectCO();
-    }
-
-    public KitchenObject GetKitchenObject()
-    {
-        return kitchenObject;
-    }
-
-    public void ClearKitchenObject()
-    {
-        this.kitchenObject = null;
-        // this.kitchenObjectCo = null;
-    }
-
-    public bool HasKitchenObject()
-    {
-        return kitchenObject != null;
-    }
+    
 }

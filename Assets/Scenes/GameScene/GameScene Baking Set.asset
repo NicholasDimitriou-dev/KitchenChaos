@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4881f9a2c4d568047b316028d20a8dca, type: 3}
   m_Name: GameScene Baking Set
   m_EditorClassIdentifier: Unity.RenderPipelines.Core.Runtime::UnityEngine.Rendering.ProbeVolumeBakingSet
-  singleSceneMode: 1
+  singleSceneMode: 0
   dialogNoProbeVolumeInSetShown: 1
   settings:
     m_Version: 1
@@ -63,8 +63,8 @@ MonoBehaviour:
       indirectionEntryInfo:
       - positionInBricks: {x: -27, y: -27, z: 0}
         minSubdiv: 0
-        minBrickPos: {x: 26, y: 26, z: 0}
-        maxBrickPosPlusOne: {x: 28, y: 28, z: 3}
+        minBrickPos: {x: 25, y: 26, z: 0}
+        maxBrickPosPlusOne: {x: 28, y: 28, z: 2}
         hasMinMax: 1
         hasOnlyBiggerBricks: 0
     - position: {x: -1, y: 0, z: -1}
@@ -97,58 +97,58 @@ MonoBehaviour:
         hasOnlyBiggerBricks: 0
     - position: {x: 0, y: -1, z: -1}
       index: 1
-      probeCount: 128
+      probeCount: 256
       minSubdiv: 0
       indexChunkCount: 1
       shChunkCount: 1
-      bricksCount: 2
+      bricksCount: 4
       indirectionEntryInfo:
       - positionInBricks: {x: 0, y: -27, z: -27}
         minSubdiv: 0
         minBrickPos: {x: 0, y: 26, z: 25}
-        maxBrickPosPlusOne: {x: 2, y: 28, z: 28}
+        maxBrickPosPlusOne: {x: 4, y: 28, z: 28}
         hasMinMax: 1
         hasOnlyBiggerBricks: 0
     - position: {x: 0, y: -1, z: 0}
       index: 5
-      probeCount: 128
+      probeCount: 192
       minSubdiv: 0
       indexChunkCount: 1
       shChunkCount: 1
-      bricksCount: 2
+      bricksCount: 3
       indirectionEntryInfo:
       - positionInBricks: {x: 0, y: -27, z: 0}
         minSubdiv: 0
         minBrickPos: {x: 0, y: 26, z: 0}
-        maxBrickPosPlusOne: {x: 2, y: 28, z: 3}
+        maxBrickPosPlusOne: {x: 4, y: 28, z: 2}
         hasMinMax: 1
         hasOnlyBiggerBricks: 0
     - position: {x: 0, y: 0, z: -1}
       index: 3
-      probeCount: 5184
+      probeCount: 5248
       minSubdiv: 0
-      indexChunkCount: 1
+      indexChunkCount: 2
       shChunkCount: 1
-      bricksCount: 81
+      bricksCount: 82
       indirectionEntryInfo:
       - positionInBricks: {x: 0, y: 0, z: -27}
         minSubdiv: 0
         minBrickPos: {x: 0, y: 0, z: 18}
-        maxBrickPosPlusOne: {x: 10, y: 2, z: 28}
+        maxBrickPosPlusOne: {x: 10, y: 3, z: 28}
         hasMinMax: 1
         hasOnlyBiggerBricks: 0
     - position: {x: 0, y: 0, z: 0}
       index: 7
-      probeCount: 5184
+      probeCount: 5248
       minSubdiv: 0
-      indexChunkCount: 1
+      indexChunkCount: 2
       shChunkCount: 1
-      bricksCount: 81
+      bricksCount: 82
       indirectionEntryInfo:
       - positionInBricks: {x: 0, y: 0, z: 0}
         minSubdiv: 0
         minBrickPos: {x: 0, y: 0, z: 0}
-        maxBrickPosPlusOne: {x: 10, y: 2, z: 10}
+        maxBrickPosPlusOne: {x: 10, y: 3, z: 10}
         hasMinMax: 1
         hasOnlyBiggerBricks: 0
   m_SerializedPerSceneCellList:
@@ -182,7 +182,7 @@ MonoBehaviour:
     m_Keys:
     - Default
     m_Values:
-    - sceneHash: 1614138407
+    - sceneHash: -609274205
       cellDataAsset:
         m_AssetGUID: acbab3451201ac8409253fd42901f1c7
         m_StreamableAssetPath: APVStreamingAssets\ead1d47a55df54a4d8ef2dd8597e95a3\acbab3451201ac8409253fd42901f1c7.bytes
@@ -271,13 +271,13 @@ MonoBehaviour:
       - offset: 1360
         elementCount: 82
       - offset: 2672
-        elementCount: 2
-      - offset: 2704
-        elementCount: 2
+        elementCount: 4
       - offset: 2736
-        elementCount: 81
-      - offset: 4032
-        elementCount: 81
+        elementCount: 3
+      - offset: 2784
+        elementCount: 82
+      - offset: 4096
+        elementCount: 82
     m_Asset: {fileID: 4900000, guid: 65b1fa8ae9ca01b4f940f064e1edfbbd, type: 3}
   cellSupportDataAsset:
     m_AssetGUID: a9bda9d5aae9aae4bada9de6ed6983d5
