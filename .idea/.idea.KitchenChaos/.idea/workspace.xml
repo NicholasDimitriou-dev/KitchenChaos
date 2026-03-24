@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7738571-7bf4-420b-95be-a6683edb0179" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.KitchenChaos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KitchenChaos/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkeyFree/Editor/ScriptableObjects/CodeMonkeyFreeSO.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkeyFree/Editor/ScriptableObjects/CodeMonkeyFreeSO.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/GameScene Baking Set-Default.CellData.bytes" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene/GameScene Baking Set-Default.CellData.bytes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/GameScene Baking Set-Default.CellOptionalData.bytes" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene/GameScene Baking Set-Default.CellOptionalData.bytes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/GameScene Baking Set-Default.CellProbeOcclusionData.bytes" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene/GameScene Baking Set-Default.CellProbeOcclusionData.bytes" afterDir="false" />
@@ -15,6 +16,10 @@
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/Lightmap-0_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene/Lightmap-0_comp_light.exr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/Lightmap-1_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene/Lightmap-1_comp_dir.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/Lightmap-1_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene/Lightmap-1_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ClearCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ClearCounter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DeliveryUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DeliveryUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KitchenObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/KitchenObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +56,7 @@
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
@@ -107,6 +113,7 @@
       <workItem from="1773784473605" duration="1295000" />
       <workItem from="1773972644094" duration="611000" />
       <workItem from="1774212782446" duration="39727000" />
+      <workItem from="1774385803102" duration="2915000" />
     </task>
     <servers />
   </component>
@@ -150,6 +157,45 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/DeliveryUI.cs</url>
+          <line>46</line>
+          <properties documentPath="C:\Users\skele\OneDrive\Desktop\CST-326\KitchenChaos\Assets\Scripts\DeliveryUI.cs" containingFunctionPresentation="Method 'UpdateVisual'">
+            <startOffsets>
+              <option value="1183" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1226" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/DeliveryUI.cs</url>
+          <line>45</line>
+          <properties documentPath="C:\Users\skele\OneDrive\Desktop\CST-326\KitchenChaos\Assets\Scripts\DeliveryUI.cs" containingFunctionPresentation="Method 'UpdateVisual'">
+            <startOffsets>
+              <option value="1103" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1170" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/DeliveryUI.cs</url>
+          <line>38</line>
+          <properties documentPath="C:\Users\skele\OneDrive\Desktop\CST-326\KitchenChaos\Assets\Scripts\DeliveryUI.cs" containingFunctionPresentation="Method 'UpdateVisual'">
+            <startOffsets>
+              <option value="922" />
+            </startOffsets>
+            <endOffsets>
+              <option value="923" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -6,29 +6,28 @@ public class KitchenObject : MonoBehaviour
 {
     [SerializeField] private KitchenObjectCO kitchenObjectCo;
     private IKitcehnObjectParent kitchenObjectParent;
+
     public KitchenObjectCO GetKitcheenObjectCO()
     {
         return kitchenObjectCo;
     }
-
-    public void SetkitchenObjectParent(IKitcehnObjectParent kitchenObjectParent)
-    {
-        if (this.kitchenObjectParent != null)
-        {
+    public void SetkitchenObjectParent(IKitcehnObjectParent kitchenObjectParent) {
+        if (this.kitchenObjectParent != null) {
             this.kitchenObjectParent.ClearKitchenObject();
         }
+
         this.kitchenObjectParent = kitchenObjectParent;
-        // this.kitchenObjectParent.ClearKitchenObject();
-        if (kitchenObjectParent.HasKitchenObject())
-        {
-            
-            Debug.LogError("already has an object");
-            return;
+
+        if (kitchenObjectParent.HasKitchenObject()) {
+            Debug.LogError("IKitchenObjectParent already has a KitchenObject!");
         }
-       kitchenObjectParent.SetKitchenObject(this);
-       transform.parent = kitchenObjectParent.GetKitchObjectFollowTransfrom();
-       transform.localPosition = Vector3.zero;
+
+        kitchenObjectParent.SetKitchenObject(this);
+
+        transform.parent = kitchenObjectParent.GetKitchObjectFollowTransfrom();
+        transform.localPosition = Vector3.zero;
     }
+
     public IKitcehnObjectParent GetkitchenObjectParent()
     {
         return kitchenObjectParent;
@@ -36,8 +35,9 @@ public class KitchenObject : MonoBehaviour
 
     public void DestroySelf()
     {
-        kitchenObjectParent.ClearKitchenObject();
         Destroy(this.gameObject);
+        kitchenObjectParent.ClearKitchenObject();
+       
     }
 
     public static KitchenObject SpawnKitchObject(KitchenObjectCO kitchenObjectCo,
@@ -64,3 +64,5 @@ public class KitchenObject : MonoBehaviour
         
     }
 }
+
+    

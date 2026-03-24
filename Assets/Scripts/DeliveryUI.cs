@@ -6,11 +6,14 @@ public class DeliveryUI : MonoBehaviour
     [SerializeField] private Transform container;
     [SerializeField] private Transform recipeTamplate;
 
-    private void Awake()
-    {
-        // recipeTamplate.gameObject.SetActive(false);
+    private void Awake() {
+        recipeTamplate.gameObject.SetActive(false);
+    }
+
+    private void Start() {
         DeliveryManager.Instance.OnRecipeSpawned += Instance_OnRecipeSpawned;
         DeliveryManager.Instance.OnRecipeCompleted += Instance_OnRecipeCompleted;
+
         UpdateVisual();
     }
 
