@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7738571-7bf4-420b-95be-a6683edb0179" name="Changes" comment="" />
+    <list default="true" id="d7738571-7bf4-420b-95be-a6683edb0179" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.KitchenChaos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KitchenChaos/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BaseCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BaseCounter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CuttingCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CuttingCounter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Delivery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Delivery.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DeliveryManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DeliveryManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SoundManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SoundManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StoveParticalSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StoveParticalSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TrashCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TrashCounter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/stove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/stove.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Assets/PrefabsVisuals/CountersVisuals/StoveCounter_Visual.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Assets/PrefabsVisuals/CountersVisuals/StoveCounter_Visual.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Assets/PrefabsVisuals/stove.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Assets/PrefabsVisuals/stove.prefab" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,6 +26,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AudioClipCO.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DeliveryUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IKitcehnObjectParent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/KitchenObjectCO.cs" root0="FORCE_HIGHLIGHTING" />
@@ -95,6 +111,7 @@
       <workItem from="1773972644094" duration="611000" />
       <workItem from="1774212782446" duration="39727000" />
       <workItem from="1774385803102" duration="3556000" />
+      <workItem from="1774833676365" duration="8934000" />
     </task>
     <servers />
   </component>

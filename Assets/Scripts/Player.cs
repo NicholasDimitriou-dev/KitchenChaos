@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour, IKitcehnObjectParent
 {
+    public event EventHandler OnPickup;
     private static Player instance;
     public static Player Instance { get; private set; }
     public event EventHandler<OnSelectedCounterChangedEventArgs> 
@@ -45,6 +46,10 @@ public class Player : MonoBehaviour, IKitcehnObjectParent
 
     private void GameInput_OnInteractAltAction(object sender, System.EventArgs e)
     {
+        if (!GameHandler.Instance.IsGamePlaying())
+        {
+            return;
+        }
         if (selectedCounter != null) {
             selectedCounter.InteractAlt(this);
         }
@@ -52,6 +57,10 @@ public class Player : MonoBehaviour, IKitcehnObjectParent
 
     private void GameInput_OnInteractAction(object sender, System.EventArgs e)
     {
+        if (!GameHandler.Instance.IsGamePlaying())
+        {
+            return;
+        }
         if (selectedCounter != null) {
             selectedCounter.Interact(this);
         }
@@ -137,6 +146,10 @@ public class Player : MonoBehaviour, IKitcehnObjectParent
     public void SetKitchenObject(KitchenObject ko)
     {
         this.kitchenObject = ko;
+        if (kitchenObject != null)
+        {
+            OnPickup?.Invoke(this, EventArgs.Empty);
+        }
     }
 
     public KitchenObject GetKitchenObject()

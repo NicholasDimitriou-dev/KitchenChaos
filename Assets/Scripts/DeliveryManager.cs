@@ -6,10 +6,14 @@ using Random = UnityEngine.Random;
 public class DeliveryManager : MonoBehaviour
 {
     public event EventHandler OnRecipeSpawned;
+    
     public event EventHandler OnRecipeCompleted;
+    public event EventHandler OnRecipeSuccess;
+    public event EventHandler OnRecipeFail;
     public static DeliveryManager Instance { get; private set; }
     [SerializeField] private RecipeListSO recipeListSo;
     public List<RecipeCO> waitingRecipe;
+    private int successRecipe;
     private float spawnTime;
     private float spawnTimeMax = 4f;
     private int waitingMax = 4;
@@ -29,7 +33,7 @@ public class DeliveryManager : MonoBehaviour
             if (waitingRecipe.Count < waitingMax)
             {
                 RecipeCO waitingRecipeSO = recipeListSo.recipeListCO[Random.Range(0, recipeListSo.recipeListCO.Count)];
-                Debug.Log(waitingRecipeSO.name);
+                // Debug.Log(waitingRecipeSO.name);
                 waitingRecipe.Add(waitingRecipeSO);
                 OnRecipeSpawned?.Invoke(this, EventArgs.Empty);
             }
@@ -65,17 +69,25 @@ public class DeliveryManager : MonoBehaviour
 
                 if (plateContentsMatch)
                 {
+                    successRecipe++;
                     Debug.Log("CorrectRecipe");
                     waitingRecipe.RemoveAt(i);
                     OnRecipeCompleted?.Invoke(this, EventArgs.Empty);
+                    OnRecipeSuccess?.Invoke(this, EventArgs.Empty);
                     return;
                 }
             }
         }
+        OnRecipeFail?.Invoke(this, EventArgs.Empty);
     }
 
     public List<RecipeCO> GetWaitingRecipeCOList()
     {
         return waitingRecipe;
+    }
+
+    public int GetSuccessfulRecipesAmount()
+    {
+        return successRecipe;
     }
 }

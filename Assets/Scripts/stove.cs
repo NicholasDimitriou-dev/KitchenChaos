@@ -1,12 +1,12 @@
 using System;
 using UnityEngine;
 
-public class stove : BaseCounter, IHasProgress
+public class Stove : BaseCounter, IHasProgress
 {
     public event EventHandler<IHasProgress.OnProgessChangedEventArgs> OnProgressChanged;
     [SerializeField] private FryingObjectCO[] fryingArray;
     [SerializeField] private BurnObjectCO[] burnArray;
-    public event EventHandler<OnstateChangedEventArgs> OnStateChange;
+    public static event EventHandler<OnstateChangedEventArgs> OnStateChange;
 
     public class OnstateChangedEventArgs : EventArgs
     {
