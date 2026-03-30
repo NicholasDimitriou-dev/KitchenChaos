@@ -1,0 +1,28 @@
+using TMPro;
+using UnityEngine;
+
+public class PauseGameUI : MonoBehaviour {
+    private void Start() {
+        GameHandler.Instance.OnGamePaused += GameHandler_OnGamePaused;
+        GameHandler.Instance.OnGameUnpaused +=  GameHandler_OnGameUnpaused;
+        Hide();
+    }
+    private void  GameHandler_OnGameUnpaused(object sender, System.EventArgs e) {
+        Hide();
+    }
+
+    private void  GameHandler_OnGamePaused(object sender, System.EventArgs e) {
+        Show();
+    }
+
+    private void Show() {
+        gameObject.SetActive(true);
+    }
+
+    private void Hide() {
+        gameObject.SetActive(false);
+    }
+
+
+}
+
