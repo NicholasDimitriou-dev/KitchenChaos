@@ -4,15 +4,15 @@
     <list default="true" id="d7738571-7bf4-420b-95be-a6683edb0179" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.KitchenChaos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KitchenChaos/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene/LightingData.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Menu.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Menu.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GamPlayCountdown.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GamPlayCountdown.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BaseCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BaseCounter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CuttingCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CuttingCounter.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PauseGameUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PauseGameUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SoundManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SoundManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TrashCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TrashCounter.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/playerInputActions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/playerInputActions.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/playerInputActions.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/playerInputActions.inputactions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +109,7 @@
       <workItem from="1773972644094" duration="611000" />
       <workItem from="1774212782446" duration="39727000" />
       <workItem from="1774385803102" duration="3556000" />
-      <workItem from="1774833676365" duration="12693000" />
+      <workItem from="1774833676365" duration="22480000" />
     </task>
     <servers />
   </component>

@@ -18,7 +18,9 @@ public class BaseCounter : MonoBehaviour, IKitcehnObjectParent
     {
         return location;
     }
-
+    public static void ResetStaticData() {
+        OnDrop = null;
+    }
     public void SetKitchenObject(KitchenObject ko)
     {
         this.kitchenObject = ko;
